@@ -215,6 +215,13 @@ ol {
   appearance: none;
 }
 
+input::placeholder {
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+}
+
 .search-form__textfield:focus {
   outline: none;
 }
